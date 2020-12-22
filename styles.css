@@ -1,0 +1,165 @@
+/* Zera todo CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'sans-serif';
+    font-size: 14px;
+}
+/* -------------- */
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.principal {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.telefones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.telefones img {
+    height: 45rem;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 0;
+}
+
+.box-direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 35%;
+    height: 42rem;
+}
+
+.card{
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+}
+
+.input-email-senha {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.3rem;
+}
+
+.input-email-senha input {
+    width: 90%;
+    margin: 0.5rem;
+    padding: 0.8rem;
+}
+
+.btn-entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-entrar button {
+    width: 80%;
+    padding: 0.8rem;
+    color: #ffff;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 4px;
+}
+
+.facebook img {
+    width: 1rem;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+.facebook a {
+    padding: 0.5rem;
+}
+
+.facebook a .span-facebook {
+    font-weight: 600;
+} 
+
+.facebook a .span-senha {
+    font-size: 0.9em;
+}
+
+.card-abaixo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    padding: 1.3rem;
+}
+
+.img-stores img {
+    width: 10rem;
+}
+.card-stores {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3rem;
+
+}
+
+.span-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1900px)  {
+    .principal {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .telefones {
+        width: 60%;
+    }
+    .box-direita {
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .principal {
+        width: 100%;
+    }
+}
